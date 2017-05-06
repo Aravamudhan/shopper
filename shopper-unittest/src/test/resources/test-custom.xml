@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- This suite can be used to execute specific tests -->
+<suite name="shopper-custom-suite" verbose="1">
+  <listeners>
+    <listener class-name="amudhan.unittest.listeners.TestStatusListener"></listener>
+  </listeners>
+  <test name="custom-unit-tests">
+    <classes>
+      <!-- <class name="amudhan.unittest.model.entities.PaymentTypeTest"></class> -->
+    </classes>
+  </test>
+</suite>

@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  
+
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -16,8 +16,9 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <bootstrap.version>3.3.7</bootstrap.version>
     <spring-boot-maven-plugin-version>1.5.3.RELEASE</spring-boot-maven-plugin-version>
+    <shopper-common.version>0.0.1-SNAPSHOT</shopper-common.version>
   </properties>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -41,8 +42,12 @@
       <artifactId>bootstrap</artifactId>
       <version>${bootstrap.version}</version>
     </dependency>
+    <dependency>
+      <groupId>amudhan</groupId>
+      <artifactId>shopper-common</artifactId>
+      <version>${shopper-common.version}</version>
+    </dependency>
   </dependencies>
-  
   <build>
     <plugins>
       <plugin>
@@ -52,5 +57,5 @@
       </plugin>
     </plugins>
   </build>
-  
+
 </project>

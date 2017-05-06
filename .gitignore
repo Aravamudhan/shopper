@@ -2,11 +2,13 @@
 *.jar
 *.war
 target/
+test-output/
 Servers/
 .metadata
 bin/
 tmp/
 logs/
+log/
 *.tmp
 *.bak
 *.swp

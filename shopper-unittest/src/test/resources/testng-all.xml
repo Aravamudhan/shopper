@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="shopper-model-suite" verbose="1">
+  <listeners>
+    <listener class-name="amudhan.unittest.listeners.TestStatusListener"></listener>
+  </listeners>
+  <test name="test-enum-types">
+    <packages>
+      <package name="amudhan.unittest.model.entities.*"/>
+    </packages>
+  </test>
+</suite>

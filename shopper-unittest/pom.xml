@@ -15,8 +15,21 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <testng.version>6.11</testng.version>
+    <shopper-model.version>0.0.1-SNAPSHOT</shopper-model.version>
+    <shopper-common.version>0.0.1-SNAPSHOT</shopper-common.version>
   </properties>
   <dependencies>
+    <!-- shopper-model -->
+    <dependency>
+      <groupId>amudhan</groupId>
+      <artifactId>shopper-model</artifactId>
+      <version>${shopper-model.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>amudhan</groupId>
+      <artifactId>shopper-common</artifactId>
+      <version>${shopper-common.version}</version>
+    </dependency>
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>

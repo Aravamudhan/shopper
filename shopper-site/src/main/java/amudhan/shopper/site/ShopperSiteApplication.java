@@ -1,4 +1,4 @@
-package amudhan.site;
+package amudhan.shopper.site;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
